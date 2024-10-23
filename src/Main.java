@@ -37,7 +37,7 @@ public class Main {
                 while (true) {
                     moedaBase = scanner.nextInt();
                     if (moedaBase >= 1 && moedaBase <= 6) {
-                        break; // Saia do loop se a entrada for válida
+                        break;
                     } else {
                         System.out.println("Opção inválida, tente novamente:");
                     }
